@@ -1,0 +1,13 @@
+attrs==21.4.0
+certifi==2023.11.17
+charset-normalizer==3.3.2
+chembl-webresource-client==0.10.8
+easydict==1.11
+idna==3.6
+itsdangerous==2.1.2
+PyYAML==6.0.1
+requests==2.31.0
+requests-cache==0.7.5
+six==1.16.0
+url-normalize==1.4.3
+urllib3==2.2.0
