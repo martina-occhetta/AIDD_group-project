@@ -1,0 +1,3 @@
+[submodule "ClinicalTrials_Prediction"]
+	path = ClinicalTrials_Prediction
+	url = https://github.com/pathri/ClinicalTrials_Prediction.git
