@@ -8,8 +8,7 @@ def fetch_assay_data():
 
     # Fetch assays related to cancer
     #cancer_assays = assays.filter(description__iregex='cancer|tumor').only(['assay_id', 'description', 'assay_type'])
-    cancer_assays = assays.filter(description__iregex='anticancer').only(['assay_chembl_id','assay_organism','description'])
-
+    cancer_assays = assays.filter(description__iregex='anticancer').only(['assay_chembl_id','assay_type_description','assay_organism','description'])
 
     # Convert to a DataFrame and return
     return pd.DataFrame(cancer_assays)
@@ -31,7 +30,7 @@ def main():
     assay_data['compound_ids'] = None
     assay_data['clinical_trial_stages'] = None
 
-    for index, row in assay_data.iloc[0:5567].iterrows():
+    for index, row in assay_data.iloc[0:-1].iterrows():
         compound_ids = fetch_compound_data(row['assay_chembl_id'])
         #print(compound_ids)
         # Check if compound_ids is not empty
@@ -44,6 +43,7 @@ def main():
             assay_data.at[index, 'clinical_trial_stages'] = 'None'
 
     print(assay_data.head())
+    assay_data.to_csv('assay_data.csv', index=False)
 
 
 if __name__ == "__main__":
