@@ -15,6 +15,7 @@ python run_pipeline.py
 - `data_processing.py`: Processes and cleans the fetched data.
 - `visualization.py`: Generates visualizations for the data.
 - `run_pipeline.py`: Main script to run the entire pipeline.
+- `chEMBL_data_visualisation.ipynb`: Above scripts collated into jupyter notebook format.
 
 ## Visualizations
 The project generates visualizations using matplotlib, providing insights into the types of assays in cancer drug development.
