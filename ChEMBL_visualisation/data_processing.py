@@ -28,7 +28,7 @@ def expand_data(df):
             new_row = row.to_dict()
             new_row['compound_ids'] = compound_id
             # Convert 'None' string to actual None type for consistency
-            new_row['clinical_trial_stages'] = stage if stage != 'None' else None
+            new_row['clinical_trial_stages'] = stage if stage != 'None' else 0
             rows.append(new_row)
     
     new_df = pd.DataFrame(rows)
@@ -41,9 +41,19 @@ def process_data(filename):
     df_expanded = expand_data(df_clean)
     
     # Save the processed and expanded data for visualization
-    df_expanded.to_csv('processed_data.csv', index=False)
+    #df_expanded.to_csv('processed_data2.csv', index=False)
     return df_expanded
 
+
+def main():
+    # Define the path to your input data file
+    input_filename = 'assay_data.csv'
+    # Process the data
+    processed_df = process_data(input_filename)
+    # Define the path to save your processed data
+    output_filename = 'processed_data.csv'
+    processed_df.to_csv(output_filename, index=False)
+    print(f"Data processed and saved to {output_filename}")
+
 if __name__ == "__main__":
-    processed_data = process_data('assay_data.csv')
-    print(processed_data.head())
+    main()
