@@ -1,9 +1,9 @@
-# Graph Generation
+## Graph Generation
 
 This project focuses on generating and analyzing a graph based on data from ChEMBL (see ChEMBL_data_visualisation directory to see data retrieval and processing functions).
 The graph represents connections between compounds and assays, including information about the maximum phase each compound has reached.
 
-## Project Structure
+### Project Structure
 
 The `ChEMBL_graph_generation` directory contains the following files:
 
@@ -14,7 +14,7 @@ The `ChEMBL_graph_generation` directory contains the following files:
 - `graph_visualisation.py`: Provides functionality to visualise the largest connected component, highlighting the different types of nodes (compounds and assays) and the structure of the (sub)graph.
 - `run_build_graph.py`: The main script that orchestrates the loading, construction, analysis, and visualisation of the graph.
 
-## How to Run
+### How to Run
 
 To run the project and generate the graph along with its analysis and visualization, follow these steps:
 
