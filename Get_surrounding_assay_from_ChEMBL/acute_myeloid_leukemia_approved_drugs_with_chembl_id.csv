@@ -1,0 +1,26 @@
+drug_name,resource_url,chembl_id_hits,chembl_id
+Arsenic Trioxide,https://www.cancer.gov/about-cancer/treatment/drugs/arsenictrioxide,CHEMBL2362016,CHEMBL2362016
+Azacitidine,https://www.cancer.gov/about-cancer/treatment/drugs/azacitidine,CHEMBL1489,CHEMBL1489
+Cerubidine (Daunorubicin Hydrochloride),https://www.cancer.gov/about-cancer/treatment/drugs/daunorubicinhydrochloride,CHEMBL1563,CHEMBL1563
+Cyclophosphamide,https://www.cancer.gov/about-cancer/treatment/drugs/cyclophosphamide,"['CHEMBL88', 'CHEMBL1200796']",CHEMBL88
+Cytarabine,https://www.cancer.gov/about-cancer/treatment/drugs/cytarabine,CHEMBL803,CHEMBL803
+Daunorubicin Hydrochloride and Cytarabine Liposome,https://www.cancer.gov/about-cancer/treatment/drugs/daunorubicinhydrochlorideandcytarabineliposome,Not found,Not found
+Daurismo (Glasdegib Maleate),https://www.cancer.gov/about-cancer/treatment/drugs/glasdegibmaleate,CHEMBL4297534,CHEMBL4297534
+Dexamethasone,https://www.cancer.gov/about-cancer/treatment/drugs/dexamethasone,CHEMBL384467,CHEMBL384467
+Doxorubicin Hydrochloride,https://www.cancer.gov/about-cancer/treatment/drugs/doxorubicinhydrochloride,CHEMBL359744,CHEMBL359744
+Enasidenib Mesylate,https://www.cancer.gov/about-cancer/treatment/drugs/enasidenibmesylate,CHEMBL3989931,CHEMBL3989931
+Gemtuzumab Ozogamicin,https://www.cancer.gov/about-cancer/treatment/drugs/gemtuzumabozogamicin,CHEMBL1201506,CHEMBL1201506
+Gilteritinib Fumarate,https://www.cancer.gov/about-cancer/treatment/drugs/gilteritinibfumarate,CHEMBL3301603,CHEMBL3301603
+Idamycin PFS (Idarubicin Hydrochloride),https://www.cancer.gov/about-cancer/treatment/drugs/idarubicinhydrochloride,CHEMBL1200976,CHEMBL1200976
+Ivosidenib,https://www.cancer.gov/about-cancer/treatment/drugs/ivosidenib,CHEMBL3989958,CHEMBL3989958
+Midostaurin,https://www.cancer.gov/about-cancer/treatment/drugs/midostaurin,CHEMBL608533,CHEMBL608533
+Mitoxantrone Hydrochloride,https://www.cancer.gov/about-cancer/treatment/drugs/mitoxantronehydrochloride,CHEMBL1417019,CHEMBL1417019
+Olutasidenib,https://www.cancer.gov/about-cancer/treatment/drugs/olutasidenib,Not found,CHEMBL4297610
+Pemazyre (Pemigatinib),https://www.cancer.gov/about-cancer/treatment/drugs/pemigatinib,CHEMBL4297522,CHEMBL4297522
+Prednisone,https://www.cancer.gov/about-cancer/treatment/drugs/prednisone,CHEMBL635,CHEMBL635
+Quizartinib Dihydrochloride,https://www.cancer.gov/about-cancer/treatment/drugs/quizartinib-dihydrochloride,Not found,CHEMBL2105709
+Rituxan (Rituximab),https://www.cancer.gov/about-cancer/treatment/drugs/rituximab,CHEMBL1201576,CHEMBL1201576
+Tabloid (Thioguanine),https://www.cancer.gov/about-cancer/treatment/drugs/thioguanine,CHEMBL727,CHEMBL727
+Tisagenlecleucel (Kymriah),https://www.cancer.gov/about-cancer/treatment/drugs/tisagenlecleucel,CHEMBL3301574,CHEMBL3301574
+Venclexta (Venetoclax),https://www.cancer.gov/about-cancer/treatment/drugs/venetoclax,CHEMBL3137309,CHEMBL3137309
+Vincristine Sulfate,https://www.cancer.gov/about-cancer/treatment/drugs/vincristinesulfate,CHEMBL501867,CHEMBL501867

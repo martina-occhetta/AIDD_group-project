@@ -1,0 +1,13 @@
+# git ignore file
+
+# python cache
+__pycache__
+
+# previous study about graph-based dataset
+ClinicalTrials_Prediction
+compounddb4j*
+neo4j*
+
+# testing data/script
+test.cypher
+pseudo.py
