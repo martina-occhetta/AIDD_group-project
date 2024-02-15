@@ -14,9 +14,6 @@ However, there are several subtypes of the `Leukemia` and our target disease (`A
 
 ```python
 ...
-## 
-url = "https://www.cancer.gov/about-cancer/treatment/drugs/leukemia#4"
-## 
 # for leukemia
 query = "acute myeloid leukemia"; name = "acute myeloid leukemia"
 url = "https://www.cancer.gov/about-cancer/treatment/drugs/leukemia#4"
