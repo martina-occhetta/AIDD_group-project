@@ -7,7 +7,7 @@ The aim of this group project is to investigate the power of preclinical assays 
 ## Overall workflow
 Link the relationship between disease, assays (assay clusters), targets, drugs using a graph.
 
-Data source relationship.
+Data source relationship:
 1. disease -> approved drugs (in cancer.gov)   
     > [Get_approved_drug_from_cancer_gov](./Get_approved_drug_from_cancer_gov): this is an automated script to get the approved for a specific cancer with inputs `source_url` (website link) and `query` (text-based pattern) from [cancer.gov](https://www.cancer.gov/about-cancer/treatment).     
 2. approved drugs -> surrounding assays -> targets (in ChEMBL)
