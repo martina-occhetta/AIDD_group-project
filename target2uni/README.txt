@@ -5,3 +5,6 @@ So, this folder contains one notebook and one csv file. you do not need to run t
 About the csv file, it contains 14 columns, as 7 pairs, because we have 7 drugs, and each pair is named after DRUG's chembl id, not assay id! And we have XXX_target_id column, this is the ASSAY TARGET chembl ids of the drug, and XXX_target_uni_ids contains the UNIPROT ids of the assay targets.
 
 when you see something like 'no_uni_id!' this means this assay target does NOT have any uniprot ids.
+
+Update:
+apart from acceptable 7 drugs, the uniprot ids (of assay targets) of drugs which are SPECIFIC to AML are also uploaded to this folder, named 'AML_specific_uni_id_df.csv'
