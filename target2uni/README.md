@@ -6,5 +6,11 @@ About the csv file, it contains 14 columns, as 7 pairs, because we have 7 drugs,
 
 when you see something like 'no_uni_id!' this means this assay target does NOT have any uniprot ids.
 
-Update:
-apart from acceptable 7 drugs, the uniprot ids (of assay targets) of drugs which are SPECIFIC to AML are also uploaded to this folder, named 'AML_specific_uni_id_df.csv'
+File:
+* [Accep_target2uni_id_df.csv](./Accep_target2uni_id_df.csv)
+
+
+Update: apart from acceptable 7 drugs, the uniprot ids (of assay targets) of drugs which are SPECIFIC to AML are also uploaded to this folder, named 'AML_specific_uni_id_df.csv'
+
+File:
+* [Specific_target2uni_id_df.csv](./Specific_target2uni_id_df.csv)
