@@ -14,9 +14,13 @@ Data source relationship:
     > [Get_surrounding_assay_from_ChEMBL](./Get_surrounding_assay_from_ChEMBL): using ChEMBL API to get the assay surrounding each approved drugs for a specific disease.  
     > For each assay, ChEMBL has annotated with `target ChEMBL ID`.
 3. assays -> assays clustering (become assay clusters)
-    > [assay_clustering](./assay_clustering): due to the diversity of assays, the similar assays should be grouped together. In this study, we adopted `BioSentVec` to transform the text description into vector-based embeddings for calculating the similarity of the assays.
-4. disease -> targets
-    > [OT_disease_to_target](./OT_disease_to_target): using the data from [opentarget](https://platform.opentargets.org/) to get the associations between disease and target.  
-5. graph generation and visualisation: linking the data across the types (disease, drug, target, assay). 
+    > [assay_clustering](./assay_clustering): due to the diversity of assays, the similar assays should be grouped together. In this study, we adopted `BioSentVec` to transform the text description into vector-based embeddings for calculating the similarity of the assays. The assays is not belonged to AML cell lines will be excluded in this analysis and won't get an assay cluster ID in the output csv.
+4. targets -> uniprot ID
+    > [target2uni](./target2uni): according to the ChEMBL database cross reference, the `Uniprot ID` can be accessed if available.
+5. disease -> targets
+    > [OT_disease_to_target](./OT_disease_to_target): using the data from [opentarget](https://platform.opentargets.org/) to get the associations between disease and target. `Uniprot ID` can also be accessed from the database if available.
+6. dataset cross linkage - preprocessing for the graph
+    > [relationship_across_dataset](./relationship_across_dataset): using the data from 3-5, a csv with the relatinoship across `disease`, `approved compound`, `assay`, `assay cluster`, and `target` will be established.
+7. graph generation and visualisation: visualise the data across the types (disease, drug, target, assay, assay cluster). 
     > [ChEMBL_graph_generation](./ChEMBL_graph_generation/): generate graph representation.  
     > [ChEMBL_visualisation](./ChEMBL_visualisation/): visualise some cancer-related data to have a brief understanding of compound-drug relationship.  
